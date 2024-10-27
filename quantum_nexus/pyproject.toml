@@ -1,0 +1,22 @@
+#cat > ../../pyproject.toml << EOF
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethics_pyramid"
+version = "0.1.0"
+authors = [
+    { name = "SDWG Team" }
+]
+description = "Quantum-Runic Ethics Framework"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["src/ethics_pyramid/tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+
+[tool.black]
+
+target-version = ['py39']
