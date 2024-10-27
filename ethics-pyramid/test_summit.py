@@ -1,4 +1,3 @@
-```python
 # src/tests/test_summit.py
 
 import pytest
@@ -48,4 +47,3 @@ def test_ethical_decision_reject():
     assert verdict.decision == EthicalDecision.REJECT
     assert verdict.confidence < summit.ethical_threshold
     assert any("revision" in rec.lower() for rec in verdict.recommendations)
-```

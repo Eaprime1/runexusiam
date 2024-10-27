@@ -1,4 +1,3 @@
-```python
 # src/core/foundation.py
 
 from typing import Dict, Any
@@ -62,4 +61,3 @@ class EthicsFoundation:
     def _evaluate_growth(self, context: Dict[str, Any]) -> float:
         # Implementation details...
         return 0.92
-```

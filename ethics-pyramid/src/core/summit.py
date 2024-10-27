@@ -1,4 +1,3 @@
-```python
 # src/core/summit.py
 
 from typing import Dict, Any, List
@@ -90,4 +89,3 @@ class EthicsSummit:
             recommendations.append("Schedule comprehensive ethical review")
             
         return recommendations
-```

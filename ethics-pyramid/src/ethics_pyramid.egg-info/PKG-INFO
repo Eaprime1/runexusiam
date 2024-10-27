@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ethics_pyramid
+Version: 0.1.0
+Summary: The Ethics Pyramid: A Quantum-Runic Framework
+Home-page: https://github.com/sdwg/ethics-pyramid
+Author: SDWG Team
+Author-email: team@sdwg.dev
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pyyaml>=5.4.1
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.0; extra == "dev"
+Requires-Dist: black>=21.5b2; extra == "dev"
+Requires-Dist: flake8>=3.9.2; extra == "dev"
+Requires-Dist: isort>=5.9.1; extra == "dev"
