@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+SDWG.egg-info/PKG-INFO
+SDWG.egg-info/SOURCES.txt
+SDWG.egg-info/dependency_links.txt
+SDWG.egg-info/requires.txt
+SDWG.egg-info/top_level.txt
+src/__init__.py
+tests/__init__.py
