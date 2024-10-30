@@ -11,3 +11,4 @@ Core development hub for quantum-runic systems.
 1. Activate quantum environment
 2. Initialize pattern system
 3. Create new thread
+# SDWG
