@@ -1,0 +1,7 @@
+---
+# Keep committed virtual environments out of Codacy analysis.
+# (480 of 501 critical findings in the 2026-10-09 export came from these.)
+exclude_paths:
+  - "venv/**"
+  - "src/ethics-pyramid/venv/**"
+  - "**/site-packages/**"
